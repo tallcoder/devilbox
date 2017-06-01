@@ -10,7 +10,7 @@
   <a target="_blank" href="https://github.com/cytopia/devilbox"><img class="battery" title="Devilbox on Github" alt="Github" src="/assets/img/logos/64x64/github.png" /></a>
   <a target="_blank" href="https://hub.docker.com/r/cytopia"><img class="battery" title="Devilbox on Docker Hub" alt="Docker" src="/assets/img/logos/64x64/docker.png" /></a>
 </div>
-<p class="center">The devilbox is a modern and highly customisable <a href="https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29">LAMP</a> and <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)">MEAN stack</a> replacement based purely on docker and docker-compose running on all major platforms. It supports an unlimited number of projects for which vhosts and DNS records are created automatically. Email catch-all and popular development tools will be at your service as well.</p>
+<p class="center">The devilbox is a modern and highly customisable <a href="https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29">LAMP</a> and <a href="https://en.wikipedia.org/wiki/MEAN_(software_bundle)">MEAN</a> stack replacement based purely on docker and docker-compose running on all major platforms. It supports an unlimited number of projects for which vhosts and DNS records are created automatically. Email catch-all and popular development tools will be at your service as well.</p>
 
 <img src="assets/img/devilbox-dash.png" alt="Devilbox"/>
 
