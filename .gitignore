@@ -16,34 +16,11 @@
 # Keep folders
 !.keepme
 
-# Ignore variable dat
-/.env
-/log/[a-z0-9-]*
-/data/
-
-# Ignore custom MySQL configs
-/cfg/mysql-5.5/*.cnf
-/cfg/mysql-5.6/*.cnf
-/cfg/mysql-5.7/*.cnf
-/cfg/mysql-8.0/*.cnf
-/cfg/mariadb-5/*.cnf
-/cfg/mariadb-10.0/*.cnf
-/cfg/mariadb-10.1/*.cnf
-/cfg/mariadb-10.2/*.cnf
-
-# Ignore custom PHP-FPM configs
-/cfg/php-fpm-5.4/*.ini
-/cfg/php-fpm-5.5/*.ini
-/cfg/php-fpm-5.6/*.ini
-/cfg/php-fpm-7.0/*.ini
-/cfg/php-fpm-7.1/*.ini
-/cfg/hhvm-latest/*.ini
-
 # gh-pages
-docs/Gemfile
-docs/Gemfile.lock
-docs/_site/
-docs/view-page.sh
+Gemfile
+Gemfile.lock
+_site/
+view-page.sh
 
 
 ######################################
