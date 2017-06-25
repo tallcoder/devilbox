@@ -1,6 +1,6 @@
 # Devilbox
-
-| **Overview** | **Installing** | **Updating** | **Configuration** | **Usage** | **Technical** | **FAQ** |
+ 
+**[Quickstart](https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md)**｜**[Install](https://github.com/cytopia/devilbox/blob/master/docs/Install.md)**｜**[Update](https://github.com/cytopia/devilbox/blob/master/docs/Update.md)**｜**[Configure](https://github.com/cytopia/devilbox/blob/master/docs/Configure.md)**｜**[Run](https://github.com/cytopia/devilbox/blob/master/docs/Run.md)**｜**[Usage](https://github.com/cytopia/devilbox/blob/master/docs/Usage.md)**｜**[OS](https://github.com/cytopia/devilbox/blob/master/docs/OS.md)**｜**[Backups](https://github.com/cytopia/devilbox/blob/master/docs/Backups.md)**｜**[Examples](https://github.com/cytopia/devilbox/blob/master/docs/Examples.md)**｜**[Technical](https://github.com/cytopia/devilbox/blob/master/docs/Technical.md)**｜**[Hacking](https://github.com/cytopia/devilbox/blob/master/docs/Hacking.md)**｜**[FAQ](https://github.com/cytopia/devilbox/blob/master/docs/FAQ.md)**
 
 ---
 
@@ -226,6 +226,147 @@ $ docker-compose stop mysql
   <a target="_blank" title="Yii" href="http://www.yiiframework.com" ><img alt="Yii" class="battery" src="/assets/img/logos/64x64/yii.png" /></a>
 </div>
 
+
+### Documentation
+
+<div style="text-align:center;">
+<div style="width:300px;display;inline-block;text-align:left;margin-left:auto; margin-right:auto; ">
+<ol>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md" >Overview</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#1-main-idea" >Main idea</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#2-features" >Features</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#3-supported-host-os" >Supported Host OS</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#4-requirements" >Requirements</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#5-docker-documentation" >Docker documentation</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#6-devilbox-documentation" >Devilbox documentation</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#7-video-tutorials" >Video Tutorials</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#8-available-php-modules" >Available PHP Modules</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/README.md#9-supported-frameworks-and-cms" >Supported Frameworks and CMS</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md" >Quickstart</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md#1-installation" >Installation</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md#2-update" >Update</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md#3-configuration" >Configuration</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md#4-run" >Run</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md#5-project-setup" >Project setup</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Quickstart.md#6-enter-the-php-docker-container" >Enter the PHP Docker container</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md" >Install</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-install-docker" >Install Docker</a>
+      <ol>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-1-linux" >Linux</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-2-windows" >Windows</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-3-osx" >OSX</a></li>
+      </ol>
+    </li>
+	<li><a href="https://github.com/cytopia/devilbox/blob/master/#2-install-devilbox" >Install Devilbox</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md" >Update</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#1-tl-dr" >TL;DR</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#2-git-tag-vs-master-branch" >Git tag vs master branch</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#3-compare-env-file" >Compare .env file</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#4-pull-new-docker-container-important-" >Pull new Docker container (Important!)</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#5-remove-anonymous-volumes" >Remove anonymous volumes</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Configure.md" >Configure</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Configure.md#1-overview" >Overview</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Configure.md#2-devilbox-general-settings" >Devilbox general settings</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Configure.md#3-project-settings" >Project settings</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Configure.md#4-container-settings" >Container settings</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Configure.md#5-intranet-settings" >Intranet settings</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Configure.md#6-host-computer" >Host computer</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md" >Run</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#1-start-the-devilbox" >Start the devilbox</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#2-stop-the-devilbox" >Stop the devilbox</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#3-attach-detach-during-run-time" >Attach/Detach during run-time</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#4-docker-logs" >Docker logs</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md" >Usage</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#1-mounted-directories" >Mounted directories</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#2-work-on-the-docker-host" >Work on the Docker host</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#3-work-inside-the-php-container" >Work inside the PHP container</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#4-managing-projects-explained" >Managing Projects explained</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#5-creating-new-projetcs" >Creating new Projects</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#6-switching-container-versions" >Switching container versions</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#7-emails" >Emails</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#8-log-files" >Log files</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Usage.md#9-intranet" >Intranet</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/OS.md" >OS</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/OS.md#1-linux" >Linux</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/OS.md#2-windows" >Windows</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/OS.md#3-osx" >OSX</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md" >Backups</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#1-info" >Info</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#2-mysql" >MySQL</a>
+      <ol>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#2-1-mysql-database-backup" >MySQL Database Backup</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#2-2-mysql-database-restore" >MySQL Database Restore</a></li>
+      </ol>
+    </li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#3-postgresql" >PostgreSQL</a>
+      <ol>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#3-1-postgresql-database-backup" >PostgreSQL Database Backup</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#3-1-postgresql-database-restore" >PostgreSQL Database Restore</a></li>
+      </ol>
+    </li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#4-mongodb" >MongoDB</a>
+      <ol>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#4-1-mongodb-database-backup" >MongoDB Database Backup</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#4-1-mongodb-database-restore" >MongoDB Database Restore</a></li>
+      </ol>
+    </li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md" >Examples</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#1-introduction" >Introduction</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#2-setup-cakephp" >Setup CakePHP</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#3-setup-drupal" >Setup Drupal</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#4-setup-phalcon" >Setup Phalcon</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#5-setup-symfony" >Setup Symfony</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#6-setup-wordpress" >Setup Wordpress</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#7-setup-yii" >Setup Yii</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#8-setup-zend" >Setup Zend</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Technical.md" >Technical</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Technical.md#1-networking" >Networking</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Technical.md#2-ports-and-forwarding" >Ports and forwarding</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Technical.md#3-works-the-same-on-host-and-php-container" >Works the same on Host and PHP Container</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Hacking.md" >Hacking</a></strong>
+  <ol>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Hacking.md#1-rebuilding-bundled-docker-container" >Rebuilding bundled Docker container</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Hacking.md#2-customizing-the-bundled-docker-container" >Customizing the bundled Docker container</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Hacking.md#3-adding-your-own-docker-container" >Adding your own Docker container</a></li>
+  </ol>
+</li>
+<li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/FAQ.md" >FAQ</a></strong></li>
+</ol>
+</div>
+</div>
 
 ### Devilbox Intranet
 
