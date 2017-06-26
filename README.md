@@ -230,6 +230,8 @@ $ docker-compose stop mysql
 
 ### Documentation
 
+<p class="center">If you don't know where to start or just want to see what is possible and how it is done, browse the documentations below. The devilbox is well explained, features many examples and even gives a technical background for customizations.</p>
+
 <div style="text-align:center;">
 <div style="width:300px;display;inline-block;text-align:left;margin-left:auto; margin-right:auto; ">
 <ol>
