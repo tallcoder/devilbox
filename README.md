@@ -270,10 +270,10 @@ $ docker-compose stop mysql
 </li>
 <li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md" >Update</a></strong>
   <ol>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#1-tl-dr" >TL;DR</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#1-tldr" >TL;DR</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#2-git-tag-vs-master-branch" >Git tag vs master branch</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#3-compare-env-file" >Compare .env file</a></li>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#4-pull-new-docker-container-important-" >Pull new Docker container (Important!)</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#4-pull-new-docker-container-important" >Pull new Docker container (Important!)</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md#5-remove-anonymous-volumes" >Remove anonymous volumes</a></li>
   </ol>
 </li>
@@ -291,7 +291,7 @@ $ docker-compose stop mysql
   <ol>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#1-start-the-devilbox" >Start the devilbox</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#2-stop-the-devilbox" >Stop the devilbox</a></li>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#3-attach-detach-during-run-time" >Attach/Detach during run-time</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#3-attachdetach-during-run-time" >Attach/Detach during run-time</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Run.md#4-docker-logs" >Docker logs</a></li>
   </ol>
 </li>
@@ -327,13 +327,13 @@ $ docker-compose stop mysql
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#3-postgresql" >PostgreSQL</a>
       <ol>
         <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#31-postgresql-database-backup" >PostgreSQL Database Backup</a></li>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#31-postgresql-database-restore" >PostgreSQL Database Restore</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#32-postgresql-database-restore" >PostgreSQL Database Restore</a></li>
       </ol>
     </li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#4-mongodb" >MongoDB</a>
       <ol>
         <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#41-mongodb-database-backup" >MongoDB Database Backup</a></li>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#41-mongodb-database-restore" >MongoDB Database Restore</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#42-mongodb-database-restore" >MongoDB Database Restore</a></li>
       </ol>
     </li>
   </ol>
