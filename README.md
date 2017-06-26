@@ -265,7 +265,7 @@ $ docker-compose stop mysql
         <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#13-osx" >OSX</a></li>
       </ol>
     </li>
-	<li><a href="https://github.com/cytopia/devilbox/blob/master/#2-install-devilbox" >Install Devilbox</a></li>
+	<li><a href="https://github.com/cytopia/devilbox/blob/master/Install.md#2-install-devilbox" >Install Devilbox</a></li>
   </ol>
 </li>
 <li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Update.md" >Update</a></strong>
