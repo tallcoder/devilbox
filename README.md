@@ -260,9 +260,9 @@ $ docker-compose stop mysql
   <ol>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-install-docker" >Install Docker</a>
       <ol>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-1-linux" >Linux</a></li>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-2-windows" >Windows</a></li>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#1-3-osx" >OSX</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#11-linux" >Linux</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#12-windows" >Windows</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Install.md#13-osx" >OSX</a></li>
       </ol>
     </li>
 	<li><a href="https://github.com/cytopia/devilbox/blob/master/#2-install-devilbox" >Install Devilbox</a></li>
@@ -320,20 +320,20 @@ $ docker-compose stop mysql
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#1-info" >Info</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#2-mysql" >MySQL</a>
       <ol>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#2-1-mysql-database-backup" >MySQL Database Backup</a></li>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#2-2-mysql-database-restore" >MySQL Database Restore</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#21-mysql-database-backup" >MySQL Database Backup</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#22-mysql-database-restore" >MySQL Database Restore</a></li>
       </ol>
     </li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#3-postgresql" >PostgreSQL</a>
       <ol>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#3-1-postgresql-database-backup" >PostgreSQL Database Backup</a></li>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#3-1-postgresql-database-restore" >PostgreSQL Database Restore</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#31-postgresql-database-backup" >PostgreSQL Database Backup</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#31-postgresql-database-restore" >PostgreSQL Database Restore</a></li>
       </ol>
     </li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#4-mongodb" >MongoDB</a>
       <ol>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#4-1-mongodb-database-backup" >MongoDB Database Backup</a></li>
-        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#4-1-mongodb-database-restore" >MongoDB Database Restore</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#41-mongodb-database-backup" >MongoDB Database Backup</a></li>
+        <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Backups.md#41-mongodb-database-restore" >MongoDB Database Restore</a></li>
       </ol>
     </li>
   </ol>
