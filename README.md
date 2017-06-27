@@ -6,6 +6,7 @@
 
 
 ### Dockerized LAMP/MEAN stack
+
 <div class="center">
   <a href="https://github.com/cytopia/devilbox"><img class="battery" title="Devilbox on Github" alt="Github" src="/assets/img/logos/64x64/github.png" /></a>
   <a href="https://hub.docker.com/r/cytopia"><img class="battery" title="Devilbox on Docker Hub" alt="Docker" src="/assets/img/logos/64x64/docker.png" /></a>
@@ -104,7 +105,7 @@ $ docker-compose up
       <td><a title="MariaDB 10.2"     href="https://github.com/cytopia/docker-mariadb-10.2">10.2</a></td>
       <td><a title="PgSQL 9.4"        href="https://github.com/docker-library/postgres">9.4</a></td>
       <td></td>
-      <td>...</td>
+      <td><a title="Memcached 1.4.23" href="https://github.com/docker-library/memcached">1.4.24</a></td>
       <td><a title="MongoDB 3.4"      href="https://github.com/docker-library/mongo">3.4</a></td>
     </tr>
     <tr>
@@ -115,8 +116,19 @@ $ docker-compose up
       <td><a title="MariaDB 10.3"     href="https://github.com/cytopia/docker-mariadb-10.3">10.3</a></td>
       <td><a title="PgSQL 9.5"        href="https://github.com/docker-library/postgres">9.5</a></td>
       <td></td>
-      <td><a title="Memcached 1.4.36" href="https://github.com/docker-library/memcached">1.4.36</a></td>
+      <td>...</td>
       <td><a title="MongoDB 3.5"      href="https://github.com/docker-library/mongo">3.5</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><a title="PHP 7.2"          href="https://github.com/cytopia/docker-php-fpm-7.2">7.2</a></td>
+      <td></td>
+      <td></td>
+      <td><a title="PgSQL 9.6"        href="https://github.com/docker-library/postgres">9.6</a></td>
+      <td></td>
+      <td><a title="Memcached 1.4.36" href="https://github.com/docker-library/memcached">1.4.36</a></td>
+      <td></td>
     </tr>
     <tr>
       <td></td>
@@ -124,7 +136,7 @@ $ docker-compose up
       <td><a title="HHVM"             href="https://github.com/cytopia/docker-hhvm-latest">HHVM</a></td>
       <td></td>
       <td></td>
-      <td><a title="PgSQL 9.6"        href="https://github.com/docker-library/postgres">9.6</a></td>
+      <td></td>
       <td></td>
       <td><a title="Memcached latest" href="https://github.com/docker-library/memcached">latest</a></td>
       <td></td>
@@ -170,9 +182,10 @@ $ docker-compose stop mysql
   <p>
   <strong><a title="PHP 5.4" href="https://github.com/cytopia/docker-php-fpm-5.4">PHP 5.4</a></strong> |
   <strong><a title="PHP 5.5" href="https://github.com/cytopia/docker-php-fpm-5.5">PHP 5.5</a></strong> |
-  <strong><a title="PHP 5.6" href="https://github.com/cytopia/docker-php-fpm-5.5">PHP 5.6</a></strong> |
-  <strong><a title="PHP 7.0" href="https://github.com/cytopia/docker-php-fpm-5.5">PHP 7.0</a></strong> |
-  <strong><a title="PHP 7.1" href="https://github.com/cytopia/docker-php-fpm-5.5">PHP 7.1</a></strong> |
+  <strong><a title="PHP 5.6" href="https://github.com/cytopia/docker-php-fpm-5.6">PHP 5.6</a></strong> |
+  <strong><a title="PHP 7.0" href="https://github.com/cytopia/docker-php-fpm-7.0">PHP 7.0</a></strong> |
+  <strong><a title="PHP 7.1" href="https://github.com/cytopia/docker-php-fpm-7.1">PHP 7.1</a></strong> |
+  <strong><a title="PHP 7.1" href="https://github.com/cytopia/docker-php-fpm-7.2">PHP 7.2</a></strong> |
   <strong><a title="HHVM"    href="https://github.com/cytopia/docker-hhvm-latest">HHVM</a></strong>
   </p>
 <p>apc, apcu, bcmath, bz2, calendar, Core, ctype, curl, date, dom, ereg, exif, fileinfo, filter, ftp, gd, gettext, gmp, hash, iconv, igbinary, imagick, imap, intl, json, ldap, libxml, magickwand, mbstring, mcrypt, memcache, memcached, mhash, mongodb, msgpack, mysql, mysqli, mysqlnd, openssl, pcntl, pcre, PDO, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phalcon, Phar, posix, pspell, readline, recode, redis, Reflection, session, shmop, SimpleXML, soap, sockets, SPL, sqlite3, standard, sysvmsg, sysvsem, sysvshm, tidy, tokenizer, uploadprogress, wddx, xdebug, xml, xmlreader, xmlrpc, xmlwriter, xsl, Zend OPcache, zip, zlib</p>
@@ -436,5 +449,4 @@ $ ./build/docker-rebuild.sh
   <p>MIT License</p>
   <p>Copyright (c) 2016 cytopia</p>
 </div>
-
 
