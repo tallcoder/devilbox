@@ -447,6 +447,6 @@ $ ./build/docker-rebuild.sh
 
 <div class="center">
   <p>MIT License</p>
-  <p>Copyright (c) 2016 cytopia</p>
+  <p>Copyright (c) 2016-2017 cytopia</p>
 </div>
 
