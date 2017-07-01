@@ -57,6 +57,7 @@ $ docker-compose up
       <th>PHP</th>
       <th>MySQL</th>
       <th>MariaDB</th>
+      <th>PerconaDB</th>
       <th>PgSQL</th>
       <th>Redis</th>
       <th>Memcached</th>
@@ -70,6 +71,7 @@ $ docker-compose up
       <td><a title="PHP 5.4"          href="https://github.com/cytopia/docker-php-fpm-5.4">5.4</a></td>
       <td><a title="MySQL 5.5"        href="https://github.com/cytopia/docker-mysql-5.5">5.5</a></td>
       <td><a title="MariaDB 5.5"      href="https://github.com/cytopia/docker-mariadb-5.5">5.5</a></td>
+      <td><a title="PerconaDB 5.5"    href="https://github.com/cytopia/docker-percona-5.5">5.5</a></td>
       <td><a title="PgSQL 9.1"        href="https://github.com/docker-library/postgres">9.1</a></td>
       <td><a title="Redis 2.8"        href="https://github.com/docker-library/redis">2.8</a></td>
       <td><a title="Memcached 1.4.21" href="https://github.com/docker-library/memcached">1.4.21</a></td>
@@ -81,6 +83,7 @@ $ docker-compose up
       <td><a title="PHP 5.5"          href="https://github.com/cytopia/docker-php-fpm-5.5">5.5</a></td>
       <td><a title="MySQL 5.6"        href="https://github.com/cytopia/docker-mysql-5.6">5.6</a></td>
       <td><a title="MariaDB 10.0"     href="https://github.com/cytopia/docker-mariadb-10.0">10.0</a></td>
+      <td><a title="PerconaDB 5.6"    href="https://github.com/cytopia/docker-percona-5.6">5.6</a></td>
       <td><a title="PgSQL 9.2"        href="https://github.com/docker-library/postgres">9.2</a></td>
       <td><a title="Redis 3.0"        href="https://github.com/docker-library/redis">3.0</a></td>
       <td><a title="Memcached 1.4.22" href="https://github.com/docker-library/memcached">1.4.22</a></td>
@@ -92,6 +95,7 @@ $ docker-compose up
       <td><a title="PHP 5.6"          href="https://github.com/cytopia/docker-php-fpm-5.6">5.6</a></td>
       <td><a title="MySQL 5.7"        href="https://github.com/cytopia/docker-mysql-5.7">5.7</a></td>
       <td><a title="MariaDB 10.1"     href="https://github.com/cytopia/docker-mariadb-10.1">10.1</a></td>
+      <td><a title="PerconaDB 5.7"    href="https://github.com/cytopia/docker-percona-5.7">5.7</a></td>
       <td><a title="PgSQL 9.3"        href="https://github.com/docker-library/postgres">9.3</a></td>
       <td><a title="Redis 3.2"        href="https://github.com/docker-library/redis">3.2</a></td>
       <td><a title="Memcached 1.4.23" href="https://github.com/docker-library/memcached">1.4.23</a></td>
@@ -103,6 +107,7 @@ $ docker-compose up
       <td><a title="PHP 7.0"          href="https://github.com/cytopia/docker-php-fpm-7.0">7.0</a></td>
       <td><a title="MySQL 8.0"        href="https://github.com/cytopia/docker-mysql-8.0">8.0</a></td>
       <td><a title="MariaDB 10.2"     href="https://github.com/cytopia/docker-mariadb-10.2">10.2</a></td>
+      <td></td>
       <td><a title="PgSQL 9.4"        href="https://github.com/docker-library/postgres">9.4</a></td>
       <td></td>
       <td><a title="Memcached 1.4.23" href="https://github.com/docker-library/memcached">1.4.24</a></td>
@@ -114,6 +119,7 @@ $ docker-compose up
       <td><a title="PHP 7.1"          href="https://github.com/cytopia/docker-php-fpm-7.1">7.1</a></td>
       <td></td>
       <td><a title="MariaDB 10.3"     href="https://github.com/cytopia/docker-mariadb-10.3">10.3</a></td>
+      <td></td>
       <td><a title="PgSQL 9.5"        href="https://github.com/docker-library/postgres">9.5</a></td>
       <td></td>
       <td>...</td>
@@ -125,6 +131,7 @@ $ docker-compose up
       <td><a title="PHP 7.2"          href="https://github.com/cytopia/docker-php-fpm-7.2">7.2</a></td>
       <td></td>
       <td></td>
+      <td></td>
       <td><a title="PgSQL 9.6"        href="https://github.com/docker-library/postgres">9.6</a></td>
       <td></td>
       <td><a title="Memcached 1.4.36" href="https://github.com/docker-library/memcached">1.4.36</a></td>
@@ -134,6 +141,7 @@ $ docker-compose up
       <td></td>
       <td></td>
       <td><a title="HHVM"             href="https://github.com/cytopia/docker-hhvm-latest">HHVM</a></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -185,7 +193,7 @@ $ docker-compose stop mysql
   <strong><a title="PHP 5.6" href="https://github.com/cytopia/docker-php-fpm-5.6">PHP 5.6</a></strong> |
   <strong><a title="PHP 7.0" href="https://github.com/cytopia/docker-php-fpm-7.0">PHP 7.0</a></strong> |
   <strong><a title="PHP 7.1" href="https://github.com/cytopia/docker-php-fpm-7.1">PHP 7.1</a></strong> |
-  <strong><a title="PHP 7.1" href="https://github.com/cytopia/docker-php-fpm-7.2">PHP 7.2</a></strong> |
+  <strong><a title="PHP 7.2" href="https://github.com/cytopia/docker-php-fpm-7.2">PHP 7.2</a></strong> |
   <strong><a title="HHVM"    href="https://github.com/cytopia/docker-hhvm-latest">HHVM</a></strong>
   </p>
 <p>apc, apcu, bcmath, bz2, calendar, Core, ctype, curl, date, dom, ereg, exif, fileinfo, filter, ftp, gd, gettext, gmp, hash, iconv, igbinary, imagick, imap, intl, json, ldap, libxml, magickwand, mbstring, mcrypt, memcache, memcached, mhash, mongodb, msgpack, mysql, mysqli, mysqlnd, openssl, pcntl, pcre, PDO, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phalcon, Phar, posix, pspell, readline, recode, redis, Reflection, session, shmop, SimpleXML, soap, sockets, SPL, sqlite3, standard, sysvmsg, sysvsem, sysvshm, tidy, tokenizer, uploadprogress, wddx, xdebug, xml, xmlreader, xmlrpc, xmlwriter, xsl, Zend OPcache, zip, zlib</p>
@@ -358,11 +366,12 @@ $ docker-compose stop mysql
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#1-introduction" >Introduction</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#2-setup-cakephp" >Setup CakePHP</a></li>
     <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#3-setup-drupal" >Setup Drupal</a></li>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#4-setup-phalcon" >Setup Phalcon</a></li>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#5-setup-symfony" >Setup Symfony</a></li>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#6-setup-wordpress" >Setup Wordpress</a></li>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#7-setup-yii" >Setup Yii</a></li>
-    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#8-setup-zend" >Setup Zend</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#4-setup-laravel" >Setup Laravel</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#5-setup-phalcon" >Setup Phalcon</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#6-setup-symfony" >Setup Symfony</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#7-setup-wordpress" >Setup Wordpress</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#8-setup-yii" >Setup Yii</a></li>
+    <li><a href="https://github.com/cytopia/devilbox/blob/master/docs/Examples.md#9-setup-zend" >Setup Zend</a></li>
   </ol>
 </li>
 <li><strong><a href="https://github.com/cytopia/devilbox/blob/master/docs/Technical.md" >Technical</a></strong>
