@@ -243,9 +243,12 @@ $ docker-compose stop mysql
 <div class="center">
   <a target="_blank" title="CakePHP" href="https://cakephp.org" ><img alt="CakePHP" class="battery" src="/assets/img/logos/64x64/cake.png" /></a>
   <a target="_blank" title="Drupal" href="https://www.drupal.org/" ><img alt="Drupal" class="battery" src="/assets/img/logos/64x64/drupal.png" /></a>
+  <a target="_blank" title="Laravel" href="https://laravel.com" ><img alt="Laravel" class="battery" src="/assets/img/logos/64x64/laravel.png" /></a>
   <a target="_blank" title="PhalconPHP" href="https://phalconphp.com" ><img alt="PhalconPHP" class="battery" src="/assets/img/logos/64x64/phalcon.png" /></a>
+  <a target="_blank" title="Symfony" href="https://symfony.com" ><img alt="Symfony" class="battery" src="/assets/img/logos/64x64/symfony.png" /></a>
   <a target="_blank" title="Wordpress" href="https://wordpress.org" ><img alt="Wordpress" class="battery" src="/assets/img/logos/64x64/wordpress.png" /></a>
   <a target="_blank" title="Yii" href="http://www.yiiframework.com" ><img alt="Yii" class="battery" src="/assets/img/logos/64x64/yii.png" /></a>
+  <a target="_blank" title="Zend Framework" href="https://framework.zend.com" ><img alt="Zend Framework" class="battery" src="/assets/img/logos/64x64/zend.png" /></a>
 </div>
 
 
