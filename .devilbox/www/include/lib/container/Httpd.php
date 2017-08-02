@@ -23,7 +23,7 @@ class Httpd extends BaseClass implements BaseInterface
 	 */
 	public function checkVirtualHost($vhost)
 	{
-		$htdocs		= $this->_docRoot . DIRECTORY_SEPARATOR . $vhost . DIRECTORY_SEPARATOR . 'htdocs';
+		$htdocs		= $this->_docRoot . DIRECTORY_SEPARATOR . $vhost . DIRECTORY_SEPARATOR . 'public';
 		$domain		= $vhost . '.' . $this->getTldSuffix();
 		$url		= 'http://'.$domain;
 		$error		= array();
@@ -31,7 +31,7 @@ class Httpd extends BaseClass implements BaseInterface
 		// 1. Check htdocs folder
 		if (!$this->_is_valid_dir($htdocs)) {
 			$error[] = 'error';
-			$error[] = 'Missing <strong>htdocs</strong> directory in: <strong>'.loadClass('Helper')->getEnv('HOST_PATH_HTTPD_DATADIR').'/'.$vhost.'/</strong>';
+			$error[] = 'Missing <strong>public</strong> directory in: <strong>'.loadClass('Helper')->getEnv('HOST_PATH_HTTPD_DATADIR').'/'.$vhost.'/</strong>';
 		}
 
 		// 2. Check internal DNS server
